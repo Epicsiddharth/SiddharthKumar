@@ -55,4 +55,8 @@ function processLogin(event) {
     message = "no one has registered!";
   }
   alert(message);
+
+  if (loginStatus) {
+    window.location.href = "index.html"; // Redirect to home page on successful login
+  }
 }
