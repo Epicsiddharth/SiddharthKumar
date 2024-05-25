@@ -13,6 +13,7 @@ function processRegistration(event) {
   let username = document.getElementById("username").value;
   let password = document.getElementById("password").value;
   //console.log(username);
+  alert("Registration successful");
 
   localStorage.setItem("RegisteredUsers", username + ":" + password + ";");
 }
